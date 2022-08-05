@@ -1,0 +1,353 @@
+/* POPPINS FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  
+}
+body{
+  background-color: #F8F8FA;
+}
+
+header{
+  background-color: #4618FE;
+  width: 100%;
+  height: 65vh;
+  /* display: flex;
+ align-items: flex-start; */
+}
+/* 
+nav {
+order: 3;
+border: 2px solid green;
+}
+
+header div:nth-child(2) img{
+  order: 1;
+  border: 2px solid rgb(40, 175, 205);
+}
+
+header div:nth-child(4) img{
+  margin-top: 25%;
+  border: 2px solid rgb(150, 22, 69);
+  
+}
+
+header div:nth-child(3){
+ 
+  border: 2px solid rgb(131, 226, 147);
+align-self: center;
+margin-right: 20%;
+ 
+} */
+
+nav{
+  position:absolute;
+  right: 0;
+  top: 3%;
+  padding-right: 20px;
+}
+
+.logo{
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.nav-item{
+  padding-right: 20px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.nav-item-active{
+  color: #4618FE;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.header-image{
+  position: absolute;
+  right: 0;
+  width: 630px;
+  top: 12%;
+}
+
+.header-text p{
+  font-size:15px ;
+}
+
+.header-text{
+  position: absolute;
+  left: 8%;
+  top: 20%;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 60px;
+}
+
+.companies{
+  position: absolute;
+  top: 69%;
+}
+
+.company-items{
+text-decoration: none;
+padding-left: 50px;
+font-size: 22px;
+color: black;
+font-weight: 700;
+margin-left: 25px;
+}
+
+.api{
+  position: relative;
+  top: 50%;
+ 
+}
+
+.api-heading{
+  position: absolute;
+  top: 130px;
+  left: 6%;
+  font-size: 40px;
+}
+
+.cards{
+  display: flex;
+  flex-direction:row;
+  position: absolute;
+  top: 300px;
+  
+  margin-left: 90px;
+}
+.card{
+  
+  width: 220px;
+  height: 260px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+.card-logo{
+  margin-top: 30px;
+}
+.card-head{
+  margin-top: 10px;
+}
+.card-body{
+  font-size: 14px;
+  margin-top: 8px;
+}
+.ch{
+  color: #5A31FC;
+}
+.card-active{
+  background-color: #FFFFFF;
+}
+.blog-heading{
+  position: absolute;
+  top: 1170px;
+  margin-left: 6%;
+  font-size: 20px;
+}
+
+.blog-cards{
+  
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 800px;
+  margin-left: 6%;
+  margin-right: 6%;
+  justify-content:center;
+  gap: 40px;
+}
+
+.blog-card{
+  display: flex;
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+.blog-content{
+  margin-left: 50px;
+  margin-top: 40px;
+  width: 300px;
+}
+
+.blog-content h6{
+  color:#4618FE;
+}
+
+.blog-content h3{
+  margin-top: 20px;
+}
+
+.blog-content small{
+  margin-top: 50px;
+}
+.blog-card-bottom-image{
+  position: absolute;
+  top: 265px;
+  right: 270px;
+ 
+}
+
+.blog-author{
+  position: absolute;
+  left: 170px;
+  bottom: 5px;
+  font-size: 11px;
+  width: 100px;
+  
+}
+.faq-section{
+  display: flex;
+  position: relative;
+  top: 900px;
+  background-color: #E9EDFE;
+  justify-content: space-between;
+}
+.faq-content{
+  
+  padding-left: 90px;
+}
+.faq-content h2{
+font-size: 40px;
+}
+.faq-section h4:nth-child(2){
+  font-weight: 300;
+  font-size: 13px;
+  padding-top: 10px;
+}
+.faq-section h4:nth-child(3){
+  font-weight: 500;
+  padding-top: 23px;
+}
+.faq-section button{
+  background-color: #4618FE;
+  color: #ffffff;
+  border: none;
+  border-radius: .3em;
+  padding: 10px 20px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.faq-image img{
+  width: 600px;
+  
+}
+
+.download-section{
+ 
+  display: flex;
+  position: relative;
+  top: 1000px;
+  margin-left: 6%;
+  margin-right: 6%;
+  justify-content: space-between;
+}
+
+.download-content span{
+ font-weight: 300;
+}
+
+.download-content{
+
+font-size: 14px;
+}
+
+.download-email{
+ height: 60px;
+  background-color: #E9EDFE;
+  border-radius: 30px;
+  
+}
+
+.download-email form {
+width:550px;
+border-radius: 5em;
+height: 100%;
+position: relative;
+
+}
+
+.download-email form input{
+ margin-top: 9px;
+ margin-left: 9px;
+ width: 200px;
+  background-color:#E9EDFE;
+  border: none;
+}
+
+.download-email form input::placeholder{
+  color: black;
+  padding-top: 10px;
+}
+
+.download-email form button{
+color: #ffffff;
+background-color:#4618FE;
+font-size: 13px;
+text-transform: uppercase;
+border: none;
+border-radius: 2em;
+padding: 15px 40px;
+margin-top: 6px;
+margin-left: 174px;
+}
+
+.footer-section{
+  
+  display: flex;
+  position: relative;
+  top: 1100px;
+  background-color: #4618FE;
+  width: 100%;
+  height: 30vh;
+}
+.footer-section > *{
+  flex-basis: 100%;
+}
+
+.footer-logo{
+  width: 150px;
+  position: absolute;
+  left: 6%;
+  top: 35%;
+}
+.footer-left .list{
+  display: flex;
+  gap: 20px;
+  list-style:none;
+  margin-left: 12%;
+  margin-top: 25%;
+  font-size: 13px;
+  color: white;
+}
+.footer-rights{
+  display: flex;
+  flex-direction: column;
+  margin-right: 6%;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer-right{
+ 
+display: flex;
+flex-direction: row;
+margin-top: 10px;
+gap: 15px;
+}
+.logos-list{
+ 
+  display: flex;
+flex-direction: row;
+list-style: none;
+gap: 20px;
+font-size: 13px;
+color: #ffffff;
+margin-top: 50px;
+}
