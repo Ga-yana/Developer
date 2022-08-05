@@ -7,7 +7,7 @@ By Ga-yana  :computer:
 
 ## A static developer landing page.
 
-### Click [here]() to see it live
+### Click [here](https://developer-banoffee.netlify.app/) to see it live
 
 ![Homepage](./images/Screenshot%202022-08-05%20at%206.58.30%20PM.png)
 ![Homepage](./images/Screenshot%202022-08-05%20at%206.58.49%20PM.png)
