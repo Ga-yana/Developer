@@ -6,6 +6,7 @@ By Ga-yana  :computer:
 #
 
 ## A static developer landing page.
+Tab and mobile responsive too.
 
 ### Click [here](https://developer-banoffee.netlify.app/) to see it live
 
